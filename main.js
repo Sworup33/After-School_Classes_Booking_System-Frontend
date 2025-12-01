@@ -461,6 +461,11 @@ const AppComponent = {
     },
 
     mounted() {
+        // Optional override via localStorage for testing
+        const override = localStorage.getItem('apiUrl');
+        if (override) {
+            this.apiUrl = override;
+        }
         // Fetch lessons when component is mounted
         this.fetchLessons();
     }
