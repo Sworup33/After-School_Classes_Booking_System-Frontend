@@ -13,6 +13,11 @@ Edit `main.js` and set `apiUrl` to your backend:
 - Local: `http://localhost:3000`
 - Prod: `https://after-school-classes-booking-system.onrender.com`
 
+Tip: For quick testing without editing code, set an override in the browser console:
+```js
+localStorage.setItem('apiUrl', 'http://localhost:3000')
+```
+
 ## Tech
 - Vue 3 (CDN), Bootstrap 5, Fetch API
 
