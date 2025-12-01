@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://sworup33.github.io/After-School_Classes_Booking_System-Frontend/sitemap.xml
